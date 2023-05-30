@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Info</title>
+</head>
+<body>
+ 
+    <div class="container">
+        <form id="form">
+          <label>
+           IP Pública
+           <input type="text" id="input" placeholder="Ingresar IP publica">
+           <small>Ejemplo: 161.115.142.23</small>
+          </label>
+          
+          <button type="submit" id="submit">
+            Buscar información de la IP
+          </button>
+
+        </form>
+
+        <div>
+            <pre id="resultados">
+
+            </pre>
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>    
+</body>
+</html>
